@@ -1,0 +1,9 @@
+{
+  "[project]/app/components/Countdown/page.js [app-client] (ecmascript, next/dynamic entry)": {
+    "id": "[project]/app/components/Countdown/page.js [app-client] (ecmascript, next/dynamic entry)",
+    "files": [
+      "static/chunks/app_components_Countdown_page_8cf764ae.js",
+      "static/chunks/app_components_Countdown_page_97a2e0f4.js"
+    ]
+  }
+}
