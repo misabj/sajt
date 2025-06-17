@@ -100,19 +100,3 @@ function AudioPreview({ title, src }) {
     </div>
   );
 }
-
-function VideoPreview({ youtubeId, title }) {
-  return (
-    <div className="bg-white rounded-lg shadow-md hover:shadow-xl transition overflow-hidden">
-      <iframe
-        className="w-full aspect-video"
-        src={`https://www.youtube.com/embed/${youtubeId}`}
-        title={title}
-        frameBorder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowFullScreen
-      ></iframe>
-      <p className="p-4 font-semibold text-gray-900">{title}</p>
-    </div>
-  );
-}
